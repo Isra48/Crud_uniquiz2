@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap");
+
+* {
+  background-color: #2c2335;
+  font-family: "Poppins", sans-serif;
+  color: #fffbfb;
+}
+
+.Welcome_section {
+  display: flex;
+  color: #fffbfb;
+  justify-content: space-between;
+  margin: 1em 1em 0em 1em;
+  padding: 1em 1em 0em 1em;
+}
+
+.Status_section {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.Status_section > div {
+  width: 44vw;
+  background-color: #463e4e;
+  padding: 0.5em;
+}
+
+h4 {
+  background-color: transparent;
+}
+
+h3 {
+  background-color: transparent;
+}
+
+.Materias_container1 {
+  display: flex;
+  justify-content: space-between;
+  margin: 2em;
+}
+
+.Materias_container1 > div {
+  background-color: #463e4e;
+  width: 13em;
+  height: 10em;
+}
