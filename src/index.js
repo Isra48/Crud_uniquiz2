@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import Login from './views/login/login';
 
 import Dashboard from './views/Dashboard/Dashboard'
 import reportWebVitals from './reportWebVitals';
@@ -7,7 +8,8 @@ import reportWebVitals from './reportWebVitals';
 ReactDOM.render(
   <React.StrictMode>
     
-    <Dashboard/>
+    <Login/>
+    <Login/>
   </React.StrictMode>,
   document.getElementById('root')
 );

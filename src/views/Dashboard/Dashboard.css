@@ -23,14 +23,47 @@
   width: 44vw;
   background-color: #463e4e;
   padding: 0.5em;
+  border-radius: 7px;
 }
 
 h4 {
   background-color: transparent;
+  padding: 0.1em 2em 0em 2em;
+  font-size: 1.5em;
+  font-weight: 400;
 }
 
 h3 {
   background-color: transparent;
+  padding: 0.1em 2em 0em 2em;
+  font-size: 1.6em;
+  text-align: right;
+  letter-spacing: 2px;
+  font-weight: 600;
+}
+.Subject_list {
+  display: flex;
+  justify-content: space-between;
+  padding: 0em 6em 0em 2em;
+  background-color: transparent;
+}
+
+ul,
+li {
+  background-color: transparent;
+  letter-spacing: 1px;
+}
+
+ul {
+  list-style: none;
+}
+ul li::before {
+  content: "\2022";
+  color: #ff3860;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
 }
 
 .Materias_container1 {
@@ -40,7 +73,32 @@ h3 {
 }
 
 .Materias_container1 > div {
+  display: flex;
+  flex-direction: column;
+  padding: 0em 0.5em 0em 0.5em;
+  cursor: pointer;
+}
+
+.Materias_container1 > div > div {
   background-color: #463e4e;
+  width: 13em;
+  height: 10em;
+  border-radius: 8px;
+}
+
+p {
+  text-align: center;
+  color: #f2f2f2;
+  padding: none;
+  margin: 0.5em 1em 0em 1em;
+  font-size: 1em;
+  font-weight: 300;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+
+.Todas {
+  background-color: #3399bb !important;
   width: 13em;
   height: 10em;
 }
